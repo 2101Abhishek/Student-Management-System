@@ -1,0 +1,24 @@
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+/target/          # Maven build output
+/bin/             # Eclipse/IntelliJ compiled classes
+
+# --- IDE ---
+.idea/            # IntelliJ
+*.iml
+.classpath        # Eclipse
+.project
+.settings/
+.vscode/
+
+# --- Database ---
+*.db              # Local SQLite files
+*.log             # Log files
+/db/              # Local DB backups (if any)
+
+# --- System ---
+.DS_Store         # macOS metadata
+Thumbs.db         # Windows cache
